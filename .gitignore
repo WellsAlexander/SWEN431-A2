@@ -1,0 +1,6 @@
+dist-newstyle/*
+
+
+app/output/*
+!app/output/
+app/output/.gitkeep
