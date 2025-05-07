@@ -1,9 +1,7 @@
-
+{-# LANGUAGE RankNTypes #-}
 module Main where
 
 import System.Environment (getArgs)
-import System.IO
-import Data.List (isPrefixOf, intercalate)
 import Data.Char (isDigit)
 import Control.Exception (try, SomeException, evaluate)
 
